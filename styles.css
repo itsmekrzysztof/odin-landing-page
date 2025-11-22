@@ -32,7 +32,7 @@ section.hero, .sign-up {
 }
 
 button.cta-button {
-    color: #3882F6;
+    color: #fff;
 }
 
 button.sign-up-button {
@@ -48,9 +48,8 @@ p.inspirational-quote {
 
 }
 
-.cta {
-    font-size: 36px;
-    color: #1F2937;
+.cta-title {
+    font-size: 24px;
     font-weight: 900;
 }
 
@@ -106,4 +105,84 @@ ul {
     width: 350px;
 }
 
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.illustrations {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+
+.illustration {
+    flex-wrap: wrap;
+    width: 200px;
+    text-align: center;
+}
+
+.main-section h2 {
+    margin: 32px 0;
+}
+
+.quote-section {
+    display: flex;
+    padding: 128px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+p.quote-section {
+    align-self: flex-end;
+    width: 100%;
+}
+
+.inspirational-quote {
+    width: 850px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.cta {
+    margin: 72px;
+    display: flex;
+        background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px;
+    width: 800px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.cta-left {
+    flex-direction: column;
+}
+
+.cta-sign-up {
+    color: #fff;
+    font-size: 13px;
+}
+
+.cta-button {
+    width: 125px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.cta-button button {
+    color: #fff;
+}
