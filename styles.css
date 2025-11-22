@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+section.hero, .sign-up {
+    background-color: #1F2937;
+}
+
+.sign-up h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.sign-up p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button.cta-button {
+    color: #3882F6;
+}
+
+button.sign-up-button {
+    width: 100px;
+    height: 25px;
+    color: #fff;
+    background-color: #3882F6;
+    border: 1px solid #fff;
+    margin-top: 10px;
+}
+
+p.inspirational-quote {
+
+}
+
+.cta {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+p.inspirational-quote, p.quote-author {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.illustration-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.sign-up-left {
+    width: 350px;
+}
+
+
